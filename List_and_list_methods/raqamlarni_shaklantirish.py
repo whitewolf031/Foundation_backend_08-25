@@ -21,7 +21,7 @@
 # # for x in range(0, 10 + 1):
 # #     print(x)
 
-rows = [rows for i in range(8)]
+# rows = [rows for i in range(8)]
 
 
 # def get_only_evens(numbers):
