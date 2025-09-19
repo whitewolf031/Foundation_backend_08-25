@@ -64,8 +64,27 @@
 #     print(a + b + c)
 # add_numbers(a=1, c=3)
 
-def names(name):
-    print("Salom " + name)
+# def names(name):
+#     print("Salom " + name)
 
-name = input("Ismingizni kiriitng")
-names(name)
+# name = input("Ismingizni kiriitng")
+# names(name)
+
+
+# def odd_numbers(n):
+#     numbers = []
+#     i = 0
+#     while i < n:
+#         i += 1
+#         if i % 2 != 0:
+#             numbers.append(i)
+
+#     print(numbers)
+
+# odd_numbers(8)
+
+# def odd_numbers2(number):
+#     i = 0
+#     raqamlar = [i while i < number, i += 1]
+
+# odd_numbers2(8)
