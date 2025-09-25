@@ -1,56 +1,66 @@
-# return dan foydalanishni 2 xil usuli 
-# 1. qiymat qaytarmaslik 
-# 2. oxirgi qiymat
+# # return dan foydalanishni 2 xil usuli 
+# # 1. qiymat qaytarmaslik 
+# # 2. oxirgi qiymat
 
-# 1. holat
-# def happy_new_year(wishes):
-#     print("Three....")
-#     print("Two....")
-#     print("One...")
-#     if not wishes:
-#         return
-#     print("Happy New Year")
+# # 1. holat
+# # def happy_new_year(wishes):
+# #     print("Three....")
+# #     print("Two....")
+# #     print("One...")
+# #     if not wishes:
+# #         return
+# #     print("Happy New Year")
 
-# happy_new_year(True)
+# # happy_new_year(True)
 
-# 2 - xolat 
-# def boring_function():
-#     print("'Boredom mode' On.")
-#     return 123
+# # 2 - xolat 
+# # def boring_function():
+# #     print("'Boredom mode' On.")
+# #     return 123
 
-# print("This lesson is interesting!")
-# boring_function()
-# print("This lesson is boring....")
+# # print("This lesson is interesting!")
+# # boring_function()
+# # print("This lesson is boring....")
 
-# print(values + 2)
-# lst = []
-# soz = " "
-# print(type(value))
-# print(type(soz))
+# # print(values + 2)
+# # lst = []
+# # soz = " "
+# # print(type(value))
+# # print(type(soz))
 
-# value = None
-# if value is None:
-#     print("Bu yerda malumot yo'q")
-# print(f"Bu yerda hozir bosh qator {None}")
+# # value = None
+# # if value is None:
+# #     print("Bu yerda malumot yo'q")
+# # print(f"Bu yerda hozir bosh qator {None}")
 
-# def strange_function(number):
-#     if number % 2 == 0:
-#         return True
+# # def strange_function(number):
+# #     if number % 2 == 0:
+# #         return True
 
-# print(strange_function(2))
-# print(strange_function(1))
+# # print(strange_function(2))
+# # print(strange_function(1))
 
-def list_sum(numbers):
-    # s = 0
-    new_list = []
-    for element in numbers:
-        if element % 2 == 0:
-            new_list.append(element)
-    #     s = s + element
-    return new_list
+# # def list_sum(numbers):
+# #     # s = 0
+# #     new_list = []
+# #     for element in numbers:
+# #         if element % 2 == 0:
+# #             new_list.append(element)
+# #     #     s = s + element
+# #     return new_list
 
-print(list_sum([5,4,3,6,5,3]))
-print(list_sum(5))
+# # print(list_sum([5,4,3,6,5,3]))
+# # print(list_sum(5))
+
+# def juft_sonlar(numbers):
+#     new_list = []
+#     for number in numbers:
+#         if number % 2 == 0:
+#             new_list.append(number ** 2)
+
+#     return new_list
+
+# print(juft_sonlar([1,2,3,4,5,6,7,8,9,10]))
 
 
 
