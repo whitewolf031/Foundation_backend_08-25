@@ -11,7 +11,8 @@
 #     print("Bunday o'zgaruvchi mavjud emas")
 
 # print(x)
-
+# sozlar = "Hello", "Salom"
+# print(sozlar * 3)
 # try:
 #     son = int(input("Son kiriting: "))
 #     print(10 / son)
@@ -35,11 +36,20 @@
 # except:
 #     print("Hisoblab bo'lmaydi")
 
-try:
-    numbers = [34,56,45,36]
-    print(numbers[6])
-except IndexError:
-    print("Noto'g'ri index")
+# try:
+#     numbers = [34,56,45,36]
+#     print(numbers[6])
+# except IndexError:
+#     print("Noto'g'ri index")
 
 # numbers = [34,56,45,36]
 # print(numbers[6])
+
+# lst = [1,2,3,4,5,6,7,8,9,10]
+# for x in lst:
+#     print(x)
+tuple_1 = (1,)
+
+lugat = {
+    "key": "value"
+}

@@ -4,9 +4,9 @@
 # 2. elif
 # 3. else - har doim ohirgi natija 
 
-# x = -1
+# x = 5
 
-# if x > 5:
+# if x > 5 or x < 5:
 #     print(f"Bu katta son")
 # elif x == 3:
 #     print("Bu 3")
