@@ -138,3 +138,31 @@
 #         return "".join(natija).capitalize()
     
 # print(m())
+
+
+class Ali:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def compare_age(self, other):
+
+        if self.age < other.age:
+            return f"{other.name} mendan kattda"
+        
+        elif self.age > other.age:
+            return f"{other.name} mendan kichkina"
+
+        else:
+            return f"Men {other.name} bilan teng"
+
+
+p1 = Person("Bobur", 15)
+p2 = Person("Ziyoda", 15)
+p3 = Person("Mirxon", 14)
+
+print(p1.compare_age(p1))
+print(p1.compare_age(p2))
+print(p1.compare_age(p3))
+
+
