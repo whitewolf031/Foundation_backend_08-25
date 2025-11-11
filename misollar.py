@@ -140,29 +140,47 @@
 # print(m())
 
 
-class Ali:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Ali:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def compare_age(self, other):
+#     def compare_age(self, other):
 
-        if self.age < other.age:
-            return f"{other.name} mendan kattda"
+#         if self.age < other.age:
+#             return f"{other.name} mendan kattda"
         
-        elif self.age > other.age:
-            return f"{other.name} mendan kichkina"
+#         elif self.age > other.age:
+#             return f"{other.name} mendan kichkina"
 
-        else:
-            return f"Men {other.name} bilan teng"
+#         else:
+#             return f"Men {other.name} bilan teng"
 
 
-p1 = Person("Bobur", 15)
-p2 = Person("Ziyoda", 15)
-p3 = Person("Mirxon", 14)
+# p1 = Person("Bobur", 15)
+# p2 = Person("Ziyoda", 15)
+# p3 = Person("Mirxon", 14)
 
-print(p1.compare_age(p1))
-print(p1.compare_age(p2))
-print(p1.compare_age(p3))
+# print(p1.compare_age(p1))
+# print(p1.compare_age(p2))
+# print(p1.compare_age(p3))
 
+
+# def integer_boolean(son):
+#     natija = []
+#     for raqam in son:
+#         if raqam == "1":
+#             natija.append(True)
+#         else:
+#             natija.append(False)
+#     return natija
+
+# print(integer_boolean("100101"))
+
+def correct_spacing(text):
+    return " ".join(text.split())
+
+print(correct_spacing("Film     tungi     soat   12:00 da   boshlanadi "))
+print(correct_spacing("Tolqinlar     sohilga    urilmoqda   "))
+print(correct_spacing(" Har doim   hayotning   yorqin  tomoniga   qarang"))
 
