@@ -12,10 +12,10 @@
 
 class Person:
     name = "Ali"
-    def __init__(m, name="Bobur", age="15"):
-        m.name = name
-        m.age = age
-        m.speed = speed
+    def __init__(self, name="Bobur", age="15"):
+        self.name = name
+        self.age = age
+        self.speed = speed
 
 
     def speak(self):
