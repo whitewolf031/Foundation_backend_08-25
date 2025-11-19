@@ -10,32 +10,32 @@
 # # def check():
 # #     pass
 
-class Person:
-    name = "Ali"
-    def __init__(self, name="Bobur", age="15"):
-        self.name = name
-        self.age = age
-        self.speed = speed
+# class Person:
+#     name = "Ali"
+#     def __init__(m, name, age, speed):
+#         m.name = name
+#         m.age = age
+#         m.speed = speed
 
 
-    def speak(self):
-        return f"Mening ismim: {self.name}"
+#     # def speak(self):
+#     #     return f"Mening ismim: {self.name}"
 
-    def tell_age(self):
-        return f"Mening yoshim {self.age}"
+#     # def tell_age(self):
+#     #     return f"Mening yoshim {self.age}"
 
-    # def run(m):
-    #     i = 0 
-    #     while i < 60:
-    #         m.speed += 10
-    #         i += 10
-    #         print(f"Mening tezligim {m.speed}")
-    #     return f"Men yugurdim {m.speed} km"
+#     def run(m):
+#         i = 0 
+#         while i < 60:
+#             m.speed += 10
+#             i += 10
+#             print(f"Mening tezligim {m.speed}")
+#         return f"Men yugurdim {m.speed} km"
 
-obj = Person("Ali", 34)
-# print(obj.speak())
-print(obj.run())
-# print(Person().speak())
+# obj = Person("Ali", 34, 0)
+# # print(obj.speak())
+# print(obj.run())
+# # print(Person().speak())
 
 
 # # def speak(self):

@@ -49,9 +49,7 @@
 # 1. funksiya
 # 2. ma'lumot turi
 
-from functools import reduce
-grades = [3,4,5,2]
-new_grades = reduce(lambda x, y: x ** 0.5, grades)
-print(new_grades)
-
-
+# from functools import reduce
+# grades = [3,4,5,2]
+# new_grades = reduce(lambda x, y: x ** 0.5, grades)
+# print(new_grades)

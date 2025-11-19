@@ -177,10 +177,13 @@
 
 # print(integer_boolean("100101"))
 
-def correct_spacing(text):
-    return " ".join(text.split())
+# def correct_spacing(text):
+#     return " ".join(text.split())
+#
+# print(correct_spacing("Film     tungi     soat   12:00 da   boshlanadi "))
+# print(correct_spacing("Tolqinlar     sohilga    urilmoqda   "))
+# print(correct_spacing(" Har doim   hayotning   yorqin  tomoniga   qarang"))
 
-print(correct_spacing("Film     tungi     soat   12:00 da   boshlanadi "))
-print(correct_spacing("Tolqinlar     sohilga    urilmoqda   "))
-print(correct_spacing(" Har doim   hayotning   yorqin  tomoniga   qarang"))
+name = "\\dir\\file"
+print(name)
 
