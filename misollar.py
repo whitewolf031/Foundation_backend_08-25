@@ -184,6 +184,10 @@
 # print(correct_spacing("Tolqinlar     sohilga    urilmoqda   "))
 # print(correct_spacing(" Har doim   hayotning   yorqin  tomoniga   qarang"))
 
-name = "\\dir\\file"
-print(name)
+# def salom(*args, **kwargs):
+#     print(f"bu args {args}")
+#     print(f"bu kwargs {kwargs}")
+#     # for ism in args:
+#     #     print(f"Salom, {ism}!")
 
+# salom("Ali", "Vali", "Soli", name="Ali", age=25)

@@ -5,9 +5,9 @@
 #     "age": 16
 # }
 
-# # data = json.dumps(malumot)
-# # print(new_json)
-# # print(type(new_json))
+# data = json.dumps(malumot)
+# print(data)
+# print(type(data))
 
 # with open("my_first_json.json", "a") as json_file:
 #     json.dump(malumot, json_file)
